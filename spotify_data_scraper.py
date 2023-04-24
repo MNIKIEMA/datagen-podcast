@@ -36,9 +36,9 @@ class SpotifyData:
                                     client_secret=self.client_secret))
         return spotify
         
-    def fetch_episodes(self):
+    def fetch_episodes(self, show_id):
         spotify = self.loging()
-        results = spotify.show(show_id="6jCObFeQTf0VARXdMv9iE4",market="FR")
+        results = spotify.show(show_id=show_id, market="FR")
         
         episode = results['episodes']['items']
         results = spotify.next(results['episodes'])
