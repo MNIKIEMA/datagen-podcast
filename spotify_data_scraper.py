@@ -46,7 +46,7 @@ class SpotifyData:
         while results['next']:
             results = spotify.next(results)
             episode.extend(results['items'])
-        with open(PurePath(self.root,'gdiy_episode.json'), 'w', encoding='utf-8') as f:
+        with open(PurePath(self.root,'episode.json'), 'w', encoding='utf-8') as f:
             json.dump(episode, f, ensure_ascii=False, indent=4)
 
 class SpotifyAudioLoader(object):
@@ -76,7 +76,7 @@ def main():
     client_id="MY_ID"
     client_secret="MY_SECRET"
     data = SpotifyAudioLoader(root=root, root_podcast=root_podcast,
-                              data_path="./data/gdiy_episode.json",
+                              data_path="./data/episode.json",
                               username=username, password=password)
     data.process_data()
 
