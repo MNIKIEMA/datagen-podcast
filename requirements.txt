@@ -1,0 +1,5 @@
+sentence-transformers
+datasets
+faiss-gpu
+spotify-dlx
+spotipy 
