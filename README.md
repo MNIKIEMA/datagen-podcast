@@ -36,13 +36,16 @@ link: https://open.spotify.com/episode/1rsJtbAyw7QBd9J2DgXZCH
 title: #40 - Artefact : Encadrer 40+ Data Scientists dans un marché en forte évolution
 transcript: [2003.44 ====> 2030.2]  mais en tout cas la limite c'est ce  qu'on a envie d'en faire. 
 Qu'est-ce qui t'a le plus fait progresser ? C'est les interactions avec  les autres. 
-Aujourd'hui par exemple, je suis IP Data Science et je pense que j'apprends plus des  gens que j'encadre que moi je leur apprends de choses. Ça veut dire qu'au final, je pense que  c'est l'achievement en fait de se dire à un moment donné, t'apprends plus des gens que t'encadres  parce que ce monde
+Aujourd'hui par exemple, je suis IP Data Science et je pense que j'apprends plus des  gens que j'encadre 
+que moi je leur apprends de choses. Ça veut dire qu'au final, je pense que  c'est l'achievement en fait 
+de se dire à un moment donné, t'apprends plus des gens que t'encadres  parce que ce monde
 link: https://open.spotify.com/episode/3ez01Fw1EfmDiVrPqprWig
 **********
 title: #54 - Pernod Ricard : Lancer des programmes de Data Science
 transcript: [1385.68 ====> 1406.6]  Qu'est-ce qui t'a le plus fait progresser ?  
 Alors, quelqu'un à qui on a parlé dans un de tes podcasts, mais la rencontre avec les  autres.  
-Ce qui est génial c'est que du coup j'ai plein de métiers différents qui travaillent  dans notre équipe, j'ai des gens vraiment avec des horizons différents et j'apprends  à chaque fois deux, donc c'est vraiment super.
+Ce qui est génial c'est que du coup j'ai plein de métiers différents qui travaillent  dans notre équipe, 
+j'ai des gens vraiment avec des horizons différents et j'apprends  à chaque fois deux, donc c'est vraiment super.
 link: https://open.spotify.com/episode/6h9fqfWmFl3zt0tqPfqS5R
 **********
 title: #49 - Masteos : Lancer le département Data par itération
