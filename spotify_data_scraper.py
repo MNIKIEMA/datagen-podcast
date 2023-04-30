@@ -1,5 +1,5 @@
 import re
-import json
+import json, os
 import spotipy
 from pathlib import Path, PurePath
 import requests
@@ -50,10 +50,23 @@ class SpotifyData:
             json.dump(episode, f, ensure_ascii=False, indent=4)
 
 class SpotifyAudioLoader(object):
-    def __init__(self,root_podcast,root, data_path, username, password):
+    def __init__(self, root_podcast, root, data_path, username, password):
         self.client = SpotifyDLXClient(root_podcast=root_podcast, root=root)
         self.client.login(username=username, password=password)
         self.data_path = data_path
+        self.loaded_episodes = self.load_loaded_episodes()
+    
+    def load_loaded_episodes(self):
+        if not os.path.exists('loaded_episodes.json'):
+            with open('loaded_episodes.json', 'w') as f:
+                json.dump([], f)
+        with open('loaded_episodes.json', 'r') as f:
+            return set(json.load(f))
+        
+    def update_loaded_episodes(self, episode_id):
+        self.loaded_episodes.add(episode_id)
+        with open('loaded_episodes.json', 'w') as f:
+            json.dump(list(self.loaded_episodes), f)
     
     def load_data(self):
         with open(self.data_path, "r", encoding="utf-8") as fp:
@@ -65,12 +78,14 @@ class SpotifyAudioLoader(object):
         for episode in data:
             link = episode["external_urls"]["spotify"]
             episode_id = extract_episod_id(url=link)
-            self.client.download_episode(episode_id_str=episode_id)
+            if episode_id not in self.loaded_episodes:
+                self.client.download_episode(episode_id_str=episode_id)
+                self.update_loaded_episodes(episode_id)
 
 
 def main():
     username="nikiemamahamadi01@gmail.com"
-    password="MY_PASSWORD"
+    password="YOUR_PASSWORD"
     root = "data/"
     root_podcast="data/"
     client_id="MY_ID"
