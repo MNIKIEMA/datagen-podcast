@@ -17,18 +17,15 @@ Output:
 
 ```markdown
 title: #20 - Gorgias : Migrer vers la Modern Data Stack
-transcript: [2138.08 ====> 2161.6]  Donc voilà, la transversalité.  
-Qu'est-ce qui t'a le plus fait progresser ?  C'est un peu cliché, 
-mais c'est vraiment de mettre les mains dedans, de faire.  
+transcript: [2138.08 ====> 2161.6]  Donc voilà, la transversalité. Qu'est-ce qui t'a le plus fait progresser ?  
+C'est un peu cliché, mais c'est vraiment de mettre les mains dedans, de faire.  
 Moi, j'ai toujours appris comme ça déjà pendant les études, etc.  
 Faire une forme de freelance à côté.  Vraiment en faisant, c'est là où tu comprends vraiment les choses.
 link: https://open.spotify.com/episode/1Y9xEnTn0yefQeAl6pv9xp
 **********
 title: #46 : Gouvernement : Monter la cellule data de l'Élysée
-transcript: [1214.76 ====> 1241.64]  il y a énormément de contenu pour se former. 
-Moi je trouve ça chouette, ça permet maintenant à  n'importe qui qui est motivé, 
-qui a envie de se former, qui a envie d'avoir de l'impact je pense,  de le faire. 
-Tu peux le faire en sortant d'une école, tu peux aussi le faire de ton côté  en te formant sur YouTube ou 
+transcript: [1214.76 ====> 1241.64]  il y a énormément de contenu pour se former. Moi je trouve ça chouette, 
+ça permet maintenant à  n'importe qui qui est motivé, qui a envie de se former, qui a envie d'avoir de l'impact je pense,  de le faire. Tu peux le faire en sortant d'une école, tu peux aussi le faire de ton côté  en te formant sur YouTube ou 
 sur Internet et moi je trouve ça chouette.  Qu'est-ce qui t'a le plus fait progresser ?  
 Qu'est-ce qui m'a fait le plus progresser ? Je pense que c'est les gens avec qui j'ai
 link: https://open.spotify.com/episode/1rsJtbAyw7QBd9J2DgXZCH
