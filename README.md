@@ -1,6 +1,6 @@
 # datagen-podcast
 <p align="center">
-  <img src="data-gen.png">
+  <img src="datagen.png">
 </p>
 
 Semantic search to query transcription from [Data Gen](https://open.spotify.com/show/27XP61URSuKu9oeWR793D6)
