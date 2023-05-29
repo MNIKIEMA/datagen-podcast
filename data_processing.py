@@ -13,7 +13,7 @@ def process(transcription, episode_info):
 
     new_data = []
 
-    window = 6  # number of sentences to combine
+    window = 8  # number of sentences to combine
     stride = 3  # number of sentences to 'stride' over, used to create overlap
     # print(episode_info[0].keys())
     for episode_id, data in tqdm(transcription.items()):
@@ -25,15 +25,17 @@ def process(transcription, episode_info):
             i_end = min(len(data)-1, i+window)
             
             text = " ".join([text['text'] for text in data[i:i_end]])
-            new_data.append({
-                'start':  data[i]['timestamp'][0],
-                'end': data[i_end]['timestamp'][1],
-                'title': episode_data["name"],
-                'text': text,
-                'id': episode_data["id"],
-                'url': episode_data["external_urls"]["spotify"],
-                'published': episode_data["release_date"]
-            })
+            if len(text) != 0:
+
+                new_data.append({
+                    'start':  data[i]['timestamp'][0],
+                    'end': data[i_end]['timestamp'][1],
+                    'title': episode_data["name"],
+                    'text': text,
+                    'id': episode_data["id"],
+                    'url': episode_data["external_urls"]["spotify"],
+                    'published': episode_data["release_date"]
+                })
     return new_data
 
 
